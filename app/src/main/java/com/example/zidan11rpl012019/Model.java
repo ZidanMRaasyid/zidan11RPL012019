@@ -8,6 +8,15 @@ public class Model {
     Boolean adult;
     String overview;
     int vote_count;
+    int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getOriginal_title() {
         return original_title;
@@ -49,10 +58,7 @@ public class Model {
         this.overview = overview;
     }
 
-    public int getVote_count() {
-
-        return vote_count;
-    }
+    public int getVote_count() { return vote_count; }
 
     public void setVote_count(int vote_count) {
         this.vote_count = vote_count;
